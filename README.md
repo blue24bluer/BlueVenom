@@ -1,4 +1,4 @@
-
+ 
 
 # ☣️ BlueVenom C2 & Payload Generator 
 
@@ -9,30 +9,39 @@
   <img src="https://img.shields.io/badge/License-MIT-orange.svg" alt="License">
 </p>
 
-**BlueVenom** هو إطار عمل متقدم للقيادة والتحكم (Command & Control - C2) ومولد حمولات (Payload Generator) عابر للمنصات. يدمج النظام بين الذكاء الاصطناعي، التشفير الديناميكي (FUD)، وشبكات الند للند (P2P) لبناء وإدارة شبكات البوت نت (Botnets) بطريقة ذكية ولا مركزية.
+<p align="center">
+  <img src="PICs/bluevenom_webpage.png" alt="BlueVenom Webpage" width="700" />
+</p>
+
+<p align="center">
+  <img src="PICs/bluevenom_webpage_2.png" alt="BlueVenom Panel 2" width="330" />
+  <img src="PICs/bluevenom_webpage_3.png" alt="BlueVenom Panel 3" width="330" />
+</p>
+
+**BlueVenom** هو إطار عمل متقدم للقيادة والتحكم (Command & Control - C2) ومولد حمولات (Payload Generator) عابر للمنصات. يدمج النظام بي[...]
 
 ---
 
 ## ⚠️ إخلاء مسؤولية (Disclaimer)
-> **تنبيه هام:** تم تطوير هذا المشروع **للأغراض التعليمية، أبحاث الأمان السيبراني، واختبار الاختراق الأخلاقي (Red Teaming) فقط**. المطوّر غير مسؤول عن أي استخدام غير قانوني أو ضار لهذا النظام. استخدامك لهذا الكود يعني موافقتك على تحمل المسؤولية الكاملة عن أفعالك.
+> **تنبيه هام:** تم تطوير هذا المشروع **للأغراض التعليمية، أبحاث الأمان السيبراني، واختبار الاختراق الأخلاقي ([...])
 
 ---
 
 ## ✨ المميزات الرئيسية (Key Features)
 
 ### 🦠 1. مولد وحاقن الحمولات (Multi-Platform Payload Engine)
-* **Android (APK):** حقن الحمولات الخبيثة داخل تطبيقات أندرويد الشرعية (Smali Injection)، مع دعم توقيع `V1/V2/V3` لتخطي حماية `Play Protect` وتحسين هيكلة الملف عبر `Zipalign`.
-* **Windows (EXE):** بناء ملفات تنفيذية أصلية بصمت (Stealth Native). يتضمن ميزات مثل: متصفح وهمي (Webview)، Keylogger مدمج، رسائل خطأ وهمية (Dialogs)، ودمج الملفات (SFX Binder).
-* **Linux / Termux:** بناء ملفات ELF مع تقنيات بقاء (Persistence) عبر `Crontab` و `Bashrc`، سكربت `Fake Sudo` لاصطياد كلمات مرور الـ Root، وتخطي إغلاق الشاشة (Wakelock).
+* **Android (APK):** حقن الحمولات الخبيثة داخل تطبيقات أندرويد الشرعية (Smali Injection)، مع دعم توقيع `V1/V2/V3` لتخطي حماية `Play [...]
+* **Windows (EXE):** بناء ملفات تنفيذية أصلية بصمت (Stealth Native). يتضمن ميزات مثل: متصفح وهمي (Webview)، Keylogger مدمج، رسائل خطأ �[...]
+* **Linux / Termux:** بناء ملفات ELF مع تقنيات بقاء (Persistence) عبر `Crontab` و `Bashrc`، سكربت `Fake Sudo` لاصطياد كلمات مرور الـ Root، وتخ[...]
 
 ### 🌐 2. شبكة الإتصال المتقدمة (BlueNet & C2 Comms)
 * **TCP Reverse Shell:** اتصالات خام ومدارة مباشرة للتحكم الفوري.
 * **HTTP/HTTPS Polling:** اتصال متخفي عبر بروتوكولات الويب.
 * **UDP Streaming:** بث حي وسريع للوسائط (كاميرا أمامية/خلفية، أو مشاركة الشاشة).
-* **BlueNet (P2P Switch):** راوتر افتراضي مدمج يتيح اتصال البوتات ببعضها البعض (Bot-to-Bot Routing) وتخطي الجدران النارية بدون الحاجة لصلاحيات Root.
+* **BlueNet (P2P Switch):** راوتر افتراضي مدمج يتيح اتصال البوتات ببعضها البعض (Bot-to-Bot Routing) وتخطي الجدران النارية بدون ا�[...]
 
 ### 🧠 3. محرك الذكاء الاصطناعي (AI Integration)
-* **تحويل الثغرات تلقائياً (Auto-Weaponization):** ربط مع `BlueBot AI` لقراءة وصف ثغرات `CVE` أو روابط الـ Exploits من جيت هاب، وتحويلها تلقائياً إلى أكواد بايثون هجومية (Silent Payloads/Scanners).
+* **تحويل الثغرات تلقائياً (Auto-Weaponization):** ربط مع `BlueBot AI` لقراءة وصف ثغرات `CVE` أو روابط الـ Exploits من جيت هاب، وتحوي[...]
 * **التفكير العميق (Think Mode):** تحليل ذكي لهيكل النظام المستهدف واتخاذ قرارات مستقلة للهجوم.
 
 ### 🛡️ 4. التشفير والتخطي (FUD & Evasion)
@@ -40,14 +49,14 @@
 * استنساخ الشهادات الرقمية (Certificate Cloning) لتخطي حماية `SmartScreen` في ويندوز.
 
 ### ⚙️ 5. التجميع المتبادل (Cross-Compilation)
-* بناء ملفات `Windows EXE` من أنظمة `Linux/Termux` باستخدام بيئة **WINE**.
+* بناء ملفات `Windows EXE` من أنظمة `Linux/Termux` باستخدام ب��ئة **WINE**.
 * بناء ملفات `Linux ELF` من أنظمة `Windows` باستخدام **WSL**.
 
 ---
 
 ## 🛠️ المتطلبات (Prerequisites)
 
-يعتمد السكربت على تثبيت الاعتماديات المفقودة تلقائياً (Auto-Dependency Installer)، ولكن يتطلب النظام بعض الأدوات الأساسية في بيئة العمل:
+يعتمد السكربت على تثبيت الاعتماديات المفقودة تلقائياً (Auto-Dependency Installer)، ولكن يتطلب النظام بعض الأدوات الأسا[...]
 
 * **Python 3.8+**
 * **أدوات أندرويد (اختياري لبناء الـ APK):** `Java`, `Apktool`, `Zipalign`, `Apksigner`.
@@ -94,7 +103,7 @@ BlueVenom/
 ├── files_upload/           # السكربتات المجهزة للإرسال (Victim scripts)
 ├── injected_logs/          # سجلات عمليات الحقن والبناء
 ├── locales/                # ملفات الترجمة (دعم الواجهة متعددة اللغات)
-├── successful_injections/  # المخرجات النهائية (EXE, APK, ELF)
+├── successful_injections/  # المخرجات النه��ئية (EXE, APK, ELF)
 ├── attacks.json            # قاعدة بيانات الهجمات المخصصة
 ├── bot_info.json           # قاعدة بيانات الأجهزة المتصلة
 ├── c2_events.json          # سجل البث المباشر للأحداث (Live Feed)
@@ -117,7 +126,7 @@ BlueVenom/
 ---
 
 ## 🤝 المساهمة (Contributing)
-نرحب بالمساهمين! إذا كان لديك إضافات (مثل قوالب FUD جديدة، تحسين استغلالات CVE، أو دعم لمنصات أخرى)، يرجى فتح `Pull Request`. يرجى التأكد من التوثيق المناسب لأي كود جديد.
+نرحب بالمساهمين! إذا كان لديك إضافات (مثل قوالب FUD جديدة، تحسين استغلالات CVE، أو دعم لمنصات أخرى)، يرجى فتح `Pu[...]
 
 ---
 
