@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="PICs/bluevenom_webpage.png" alt="BlueVenom Webpage" width="700" />
+  <img src="PICs/Screenshot (228).png" alt="BlueVenom Webpage" width="700" />
 </p>
 
 <p align="center">
